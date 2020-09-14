@@ -24,7 +24,7 @@ export class HeaderComponent implements OnInit, OnDestroy {
   totalQuantity: number = 0;
 
   constructor(
-    private authService: AuthService,
+    public authService: AuthService,
     public shoppingCartService: ShoppingCartService
     // public cartService: CartService
   ) {}

@@ -45,7 +45,7 @@ export class ProductsComponent implements OnInit {
     private productService: ProductService,
     private cartService: ShoppingCartService,
     private categoryService: CategoryService,
-    private authService: AuthService,
+    public authService: AuthService,
     private route: ActivatedRoute,
     @Inject('BaseURL') public baseURL
   ) {  }
